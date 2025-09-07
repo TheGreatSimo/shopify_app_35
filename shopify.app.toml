@@ -1,0 +1,32 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "6ed39bfccddf90e4979da77b1e143434"
+name = "Easy Rentals"
+handle = "easy-rentals-1"
+application_url = "https://blades-growing-periodic-step.trycloudflare.com"
+embedded = true
+
+[build]
+include_config_on_deploy = true
+automatically_update_urls_on_dev = true
+
+[webhooks]
+api_version = "2025-07"
+
+  [[webhooks.subscriptions]]
+  topics = [ "app/uninstalled" ]
+  uri = "/webhooks/app/uninstalled"
+
+  [[webhooks.subscriptions]]
+  topics = [ "app/scopes_update" ]
+  uri = "/webhooks/app/scopes_update"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "read_themes,write_products"
+
+[auth]
+redirect_urls = ["https://blades-growing-periodic-step.trycloudflare.com/auth/callback", "https://blades-growing-periodic-step.trycloudflare.com/auth/shopify/callback", "https://blades-growing-periodic-step.trycloudflare.com/api/auth/callback"]
+
+[pos]
+embedded = false

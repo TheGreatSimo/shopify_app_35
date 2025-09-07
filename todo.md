@@ -1,0 +1,1 @@
+- [ ] got a problem with fetching the product owned metafield , time to fix   
