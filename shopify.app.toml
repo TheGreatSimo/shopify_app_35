@@ -3,7 +3,7 @@
 client_id = "6ed39bfccddf90e4979da77b1e143434"
 name = "Easy Rentals"
 handle = "easy-rentals-1"
-application_url = "https://blades-growing-periodic-step.trycloudflare.com"
+application_url = "https://basically-done-celebrities-dollar.trycloudflare.com"
 embedded = true
 
 [build]
@@ -26,7 +26,7 @@ api_version = "2025-07"
 scopes = "read_themes,write_products"
 
 [auth]
-redirect_urls = ["https://blades-growing-periodic-step.trycloudflare.com/auth/callback", "https://blades-growing-periodic-step.trycloudflare.com/auth/shopify/callback", "https://blades-growing-periodic-step.trycloudflare.com/api/auth/callback"]
+redirect_urls = ["https://basically-done-celebrities-dollar.trycloudflare.com/auth/callback", "https://basically-done-celebrities-dollar.trycloudflare.com/auth/shopify/callback", "https://basically-done-celebrities-dollar.trycloudflare.com/api/auth/callback"]
 
 [pos]
 embedded = false
