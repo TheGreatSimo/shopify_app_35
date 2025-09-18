@@ -19,10 +19,7 @@ export const addVariant = async ({
             productVariants {
               id
               title
-              inventoryItem {
-                id
-                tracked
-              }
+              inventoryPolicy
               selectedOptions {
                 name
                 value
@@ -37,6 +34,7 @@ export const addVariant = async ({
       {
         variables: {
           productId: productId,
+          inventoryPolicy: "continue",
           variants: [
             {
               price: dailyPrice,

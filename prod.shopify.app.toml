@@ -3,7 +3,7 @@
 client_id = "6ed39bfccddf90e4979da77b1e143434"
 name = "Easy Rentals"
 handle = "easy-rentals-1"
-application_url = "https://stats-sally-fever-threatening.trycloudflare.com"
+application_url = "https://app35.auremist.space/"
 embedded = true
 
 [build]
@@ -26,7 +26,7 @@ api_version = "2025-07"
 scopes = "read_themes,write_products"
 
 [auth]
-redirect_urls = ["https://stats-sally-fever-threatening.trycloudflare.com/auth/callback", "https://stats-sally-fever-threatening.trycloudflare.com/auth/shopify/callback", "https://stats-sally-fever-threatening.trycloudflare.com/api/auth/callback"]
+redirect_urls = ["https://app35.auremist.space/auth/callback", "https://app35.auremist.space/auth/shopify/callback", "https://app35.auremist.space/api/auth/callback"]
 
 [pos]
 embedded = false
